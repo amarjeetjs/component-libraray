@@ -1,0 +1,122 @@
+
+.wrapper{
+    display: grid;
+    grid-template-areas: 
+    "navbar"
+    "documentation"
+    ;
+    grid-template-rows: 60px auto;
+}
+.navbar{
+    grid-area: navbar;
+}
+.documentation-main {
+    display: flex;
+    margin-top: 60px;
+   grid-area:documentation
+}
+aside {
+    width: 240px;
+    border-right: 2px solid #eee;
+    height: 100%;
+    position:-webkit-sticky;
+    position:sticky;
+    top:30px;
+
+}
+aside ul li {
+    list-style: none;
+}
+aside ul a {
+    display: block;
+    text-decoration: none;
+    padding:10px 2px;
+    width: 100%;
+    font-size: 2rem;
+    color: #6b7280;
+}
+a:hover {
+    background-color: #c4b5fd;    ;
+}
+a:active {
+    background-color: rgb(152, 107, 165);
+  }
+.content {
+    grid-area: main;
+    margin-left: 30px;
+}
+.next-prev-page-option {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.next-prev-page-option a {
+    text-decoration: none;
+    padding: 5px;
+    color: #6b7280;
+}
+.next-prev-page-option a:hover {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.standard-avatar {
+    height: auto;
+    border: 1px solid violet;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+}
+.standard-alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.badge-icons{
+    display: flex;
+    align-items: baseline;
+    padding:10px;
+}
+.avatar-badge-icon{
+    display: flex;
+    align-items: baseline;
+}
+.primary-buttons{
+    margin-bottom: 20px;
+}
+
+.responsive-img{
+    width:100%;
+
+}
+.rounded-img{
+    width:150px;
+    height:150px;
+}
+
+
+/* media query */
+@media only screen and (max-width: 767px) {
+    .documentation-main {
+        margin-left: 5px;
+        margin-top: 60px;
+        margin-top: 60px;
+        grid-area:documentation
+    }
+    aside {
+        display: none;
+    }
+    .standard-avatar {
+        height: auto;
+        border: 1px solid violet;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: end;
+        flex-wrap: wrap;
+    }
+}

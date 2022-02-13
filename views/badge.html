@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/documentation.css" />
+        <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/componentStyle.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"
+            integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/agate.min.css"
+            integrity="sha512-dtcZayDwnLWcHMKRgV5S5qk2T4+jz45M89ychxm+Rl9/bA/SiqD59y9ZNoMVDFo7Hnss/O8MruCqWLL5yDv/aQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+        <title>nativeBase-ui</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="#"><li>Docs</li></a>
+                </ul>
+            </nav>
+            <main class="documentation-main">
+                <aside>
+                    <ul>
+                        <a href="./gettingStarted.html">Getting started</a>
+                        <a href="./alert.html">Alert</a>
+                        <a href="./avatar.html">Avatar</a>
+                        <a href="./button.html">Button</a>
+                        <a href="./badge.html">Badge</a>
+                        <a href="./card.html">Card</a>
+                        <a href="./image.html">Image</a>
+                        <a href="./input.html">Input</a>
+                    </ul>
+                </aside>
+                <div class="content">
+                    <!-- Getting started -->
+                    <h3 class="font-lg heading-color">Badge</h3>
+                    <p class="font-md">
+                        Provide a user friendly badge skeleton which you can used to display Notifications.
+                    </p>
+                    <h4 class="font-md heading-color">Badge on Icons</h4>
+                    <div class="badge-icons">
+                        <div class="badge-icon">
+                            <i class="fa fa-comment"></i>
+                            <span>8</span>
+                        </div>
+                        <div class="badge-icon">
+                            <i class="fa fa-envelope"></i>
+                            <span>16</span>
+                        </div>
+                    </div>
+                    <pre class=""><code class="html">
+            &lt;div class="badge-icon"">&lt;i class="fa fa-comment">&lt;/i>&lt;/div>
+            &lt;div class="badge-icon"">&lt;i class="fa fa-envelope">&lt;/i>&lt;/div>
+                    </code></pre>
+
+                    <h4 class="font-md heading-color">Avatar with badge</h4>
+                    <div class="avatar-badge-icon">
+                        <figure class="avatar-badge avatar-badge-lg">
+                            <img
+                                src="https://media.istockphoto.com/photos/portrait-of-businessman-smiling-against-wall-picture-id878395336?b=1&k=20&m=878395336&s=170667a&w=0&h=E-jyj95oWVLjVMTCf6z7umTa4MTy9gIJyU0a9phsflE="
+                                alt=""
+                            />
+                            <span>10</span>
+                        </figure>
+                        <figure class="avatar-badge avatar-badge-md">
+                            <img
+                                src="https://media.istockphoto.com/photos/portrait-of-businessman-smiling-against-wall-picture-id878395336?b=1&k=20&m=878395336&s=170667a&w=0&h=E-jyj95oWVLjVMTCf6z7umTa4MTy9gIJyU0a9phsflE="
+                                alt=""
+                            />
+                            <span>10</span>
+                        </figure>
+                        <figure class="avatar-badge avatar-badge-sm">
+                            <img
+                                src="https://media.istockphoto.com/photos/portrait-of-businessman-smiling-against-wall-picture-id878395336?b=1&k=20&m=878395336&s=170667a&w=0&h=E-jyj95oWVLjVMTCf6z7umTa4MTy9gIJyU0a9phsflE="
+                                alt=""
+                            />
+                            <span>10</span>
+                        </figure>
+                    </div>
+
+                    <pre class=""><code class="html">
+            &lt;figure class="avatar-badge avatar-badge-lg">&lt;img src="..." alt="..."/&gt;&lt;span>10&lt;/span>&lt;/figure>
+            &lt;figure class="avatar-badge avatar-badge-md">&lt;img src="..." alt="..."/&gt;&lt;span>10&lt;/span>&lt;/figure>
+            &lt;figure class="avatar-badge avatar-badge-sm">&lt;img src="..." alt="..."/&gt;&lt;span>10&lt;/span>&lt;/figure>
+                                            </code></pre>
+                    <div class="next-prev-page-option">
+                        <a href="/views/card.html"><h4>Card &gt;</h4></a>
+                        <a href="./button.html"><h4>&lt; Button</h4></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

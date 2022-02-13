@@ -1,0 +1,140 @@
+html{
+    font-size:62.5%;
+}
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #ffff;
+    color: #6b7280;
+    font-size: 1.6rem;
+}
+* {
+    box-sizing: border-box;
+}
+:root{
+    --black-500 : #334155
+
+}
+.heading-color{
+    color:var(--black-500)
+
+}
+.menu{
+    font-size:20px;
+    color: white;
+}
+.font-sm{
+    font-size: 12px;
+}
+.font-md{
+    font-size: 20px;
+}
+.font-lg{
+    font-size: 26px;
+}
+nav {
+    /* grid-area:nav; */
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 999;
+    background-color: blueviolet;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+main {
+    grid-area:main;
+    height: 100%;
+    /* text-align: center; */
+}
+.description {
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.docs-btn {
+    min-width: 180px;
+    min-height: 50px;
+    background-color: #7952b3;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #7952b3;
+    border-radius: 5px;
+    margin: 10px;
+}
+.docs-btn:hover {
+    min-width: 180px;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: #4e2c81;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #7952b3;
+    border-radius: 5px;
+    margin: 10px;
+}
+.github-btn {
+    min-width: 180px;
+    min-height: 50px;
+    background-color: #ffff;
+    color: #6c757d;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+}
+.github-btn:hover {
+    min-width: 180px;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: #6c757d;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+}
+.custom-eeitor{
+    text-align: left;
+    max-width:100%;
+    
+}
+i{
+    margin-right: 5px;
+}
+.getting-started-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+
+/* media-query */
+@media only screen and(max-width:767px){
+    nav ul a{
+        display: none;
+    }
+}
+@media only screen and(min-width:767px){
+    nav ul i{
+        display: none;
+    }
+
+}
