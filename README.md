@@ -7,11 +7,11 @@ A UI Component Library that provides utility classes for you to create your User
 
 Add the below import into your css file at the top.
 
-``` @import url("https://nativebase-components-library.netlify.app/css/componentStyles.css" ```
+``` @import url("https://nativebase-components-library.netlify.app/css/componentStyles.css") ```
 
 ###
 
-#Components
+## Components
 
 * Alert
 * Avatar
@@ -20,6 +20,13 @@ Add the below import into your css file at the top.
 * Card
 * Image
 * Input
+
+## Preview 
+###
+* Alert 
+---
+![alert](assets/alert-simple.png)
+![alert-icon](assets/alertwith-cins.png)
 
 
 <!-- ## heading 2
